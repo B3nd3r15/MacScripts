@@ -58,7 +58,7 @@ check_connectivity() {
        echo "Have CWxVPN Connectivity, Continuing..."
        echo
     else
-       echo "FATAL ERROR: Can't ping scriptsnas.cernerasp.com, Check split_tunnel status. EXITING!!!"
+       echo "$TIMESTAMP FATAL ERROR: Can't ping scriptsnas.cernerasp.com, Check split_tunnel status. EXITING!!!"
        echo
        exit 1
     fi
